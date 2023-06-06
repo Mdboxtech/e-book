@@ -1,0 +1,201 @@
+:root {
+    --mdlight: #333 !important;
+    --mdDark2: #eee !important;
+    --mdDark: #ccc !important;
+    --bwn: brown;
+    --nback:#a53002c4;
+}
+.dark-theme {
+    --mdlight: #e8edf0 !important;
+    --mdDark2: rgba(0, 128, 0, 0.062) !important;
+    --mdDark: #0d1013 !important;
+    --nback:#282625c4;
+    --bwn:#a2ad04;
+}
+/* .light-theme {
+    --mdlight: #333 !important;
+    --mdDark2: #eee !important;
+    --mdDark: #ccc !important;
+} */
+.mdloader {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: #0d10138c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000000000;
+    top: 0;
+}
+.mdbox {
+    background: var(--mdDark2);
+    padding: 10px;
+    margin: 10px;
+}
+
+.containt {
+    overflow: auto;
+    height: 100px;
+}
+#postcreate {
+}
+#postcreate input {
+    margin-bottom: 10px;
+}
+
+.mdbox {
+}
+.mdtable {
+    background: var(--mdDark2);
+    padding: 10px;
+    color: var(--mdlight);
+}
+.mdtable tbody td {
+    color: var(--mdlight);
+}
+.mdtable th {
+    color: var(--mdlight);
+}
+.mdbox2 {
+    background: var(--mdDark2);
+    padding: 10px;
+}
+#mdupload {
+    background: var(--mdDark2);
+}
+.spinner-border {
+    width: 200px;
+    height: 200px;
+    border-width: 20px;
+}
+#mdcustom ul li a {
+    color: #ddd;
+    transition: 0.1s;
+    padding-left: 15px;
+}
+.mood-set {
+    font-size: 22px;
+}
+body {
+    background: var(--mdDark);
+    color: var(--mdlight);
+}
+.text-muted {
+    color: var(--mdlight);
+}
+.section-heading {
+    color: var(--mdlight);
+    margin: 5px;
+}
+.allfile div p {
+    color: var(--mdlight);
+}
+.files div p {
+    color: var(--mdlight);
+}
+.other div p {
+    color: var(--mdlight);
+}
+
+#about {
+    background: var(--mdDark2);
+}
+.draftfile p {
+    color: var(--mdlight);
+}
+
+#mdline {
+    width: 100px;
+    margin: 10px auto;
+    border: 3px solid rgb(216, 219, 12);
+    background: rgb(216, 219, 12);
+    color: rgb(216, 219, 12);
+    border-radius: 20px;
+}
+
+.intro-lead-in h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.intro-lead-in {
+    /* border: 2px solid green; */
+    padding: 20px;
+    background: rgba(0, 128, 0, 0.062);
+    border-radius: 50px;
+    /* backdrop-filter: blur(20px); */
+}
+#facultys span i {
+    background: rgb(216, 219, 12);
+    border-radius: 20px;
+    margin-bottom: 10px !important;
+}
+#facultys span i:hover {
+    background: var(--bwn);
+}
+
+#mdcustom {
+    background:var(--nback) ;
+    backdrop-filter: blur(20px);
+}
+
+#dd a {
+}
+.dropdown-menu a {
+    color: #333 !important;
+}
+#mdcustom ul li a:hover {
+    color: rgb(216, 219, 12);
+    font-size: 20px;
+}
+.active {
+    color: rgb(216, 219, 12) !important;
+    font-size: 20px;
+}
+.navbar-brand {
+    color: rgb(233, 236, 44) !important;
+}
+#toTop {
+    position: fixed;
+    bottom: 20%;
+    background: rgb(233, 236, 44) !important;
+    width: fit-content;
+    right: 30px;
+    cursor: pointer;
+    border-radius: 20%;
+    z-index: 10000000;
+}
+#toTop i {
+    font-size: 30px;
+    color: #fff;
+    padding: 3px;
+}
+#toTop:hover {
+    background: #333 !important;
+}
+.btn-success {
+    background: var(--bwn) !important;
+    outline: none;
+    border: var(--bwn);
+}
+.btn-outline-success {
+    border: 2px solid var(--bwn);
+    color: var(--mdlight);
+}
+
+.btn-outline-success:hover {
+    background: var(--bwn) !important;
+    border: 2px solid var(--bwn);
+}
+.bg-success {
+    background: var(--bwn) !important;
+}
+.btn-outline-info {
+    border: 2px solid var(--bwn);
+    color: var(--mdlight);
+}
+.btn-outline-info:hover {
+    border: 2px solid var(--bwn);
+    color: var(--mdlight);
+    background: var(--bwn);
+}
